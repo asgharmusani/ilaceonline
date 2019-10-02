@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    color: #000;
+    font-size: 14px;
+}
+
+.main {
+    background-image: url(bg-new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #181818!important;
+    height: 100vh;
+    background-position: top;
+}
+
+.main .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-weight: 700;
+    color: #fff;
+}
+
+.btns {
+  margin-top: 50px;
+}
+
+.btns button {
+        background: #fff;
+        color: #000;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 15px;
+        letter-spacing: 1px;
+        transition: all 0.5s linear;
+        font-weight: 700;
+}
+
+.btns button:hover {
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #c7c7c7;
+}
+
+ 
+
+@media only screen and (max-width: 600px) {
+  .btns button {
+    margin-top: 20px;
+    margin-right: 0 !important;
+  }
+
+}
+
