@@ -14,7 +14,7 @@ body {
   background-color: #181818 !important;
   height: 100vh;
   background-position: right;
-  background-position-x: 85%;
+  background-position-y: top;
 }
 
 .main .wrapper {
